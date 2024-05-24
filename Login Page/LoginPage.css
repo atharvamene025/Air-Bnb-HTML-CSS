@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#Login-Page {
+  /* border: 1px solid Black; */
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(Screenshot\ \(65\).png); */
+  background-color: rgb(237, 235, 235);
+}
+
+#login-section {
+  width: 40%;
+  border: 1px solid Black;
+  border-radius: 15px;
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#login-section h2 {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+#header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  /* padding-top: 30px; */
+}
+#user-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#user-data input {
+  height: 55px;
+  width: 80%;
+  border-radius: 15px;
+}
+
+#social-connect {
+}
+.pad10 {
+  padding: 10px 0px 5px 0px;
+}
+.welcome {
+  padding: 30px 0px;
+  font-weight: lighter;
+}
+.continue {
+  width: 80%;
+  height: 40px;
+  margin-left: 60px;
+  font-weight: bolder;
+  background-color: rgb(221, 15, 99);
+  color: white;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.social-buttons {
+  width: 80%;
+  height: 40px;
+  margin-left: 60px;
+  font-weight: bolder;
+  background-color: white;
+  /* color: white; */
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.or {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  font-size: 17px;
+  color: grey;
+  border-color: grey;
+}
+
+.or span {
+  background: #fff;
+  padding: 0 10px;
+}
