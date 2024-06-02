@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#navabar {
+  width: 100%;
+  height: 80px;
+  border: 1px solid rgb(238, 238, 238);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 20%;
+  height: 100%;
+}
+#right-navs {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#accounts {
+  display: flex;
+  border: 1px solid black;
+  width: 20%;
+  height: 25px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
+#content {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+}
+
+#profile-section {
+  height: 600px;
+  width: 70%;
+}
+
+#header {
+  word-spacing: 10px;
+  margin-top: 40px;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left-section {
+  width: 60%;
+  height: 850px;
+}
+
+#right-section {
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 15px;
+  width: 30%;
+  padding-left: 25px;
+}
+
+#support-section {
+  border-top: 1px solid rgb(211, 211, 211);
+  height: 200px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  background-color: rgb(247, 247, 247);
+
+  padding-bottom: 30px;
+}
+
+#support-section div ul li {
+  color: rgb(180, 179, 179);
+  font-size: 14px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+#support-section div {
+  width: 30%;
+  text-align: left;
+}
+#socials {
+  border-top: 1px solid grey;
+  background-color: rgb(247, 247, 247);
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 20px;
+  background-color: rgb(247, 247, 247);
+}
+#socials span {
+  padding-right: 5px;
+}
+
+.img-hw {
+  height: 20%;
+  width: 20%;
+  padding-top: 10px;
+}
+.right-info-divs {
+  width: 80%;
+  height: 230px;
+
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.right-info-divs p {
+  color: grey;
+  font-size: 15px;
+}
+.fc-grey {
+  color: rgb(72, 72, 72);
+}
+
+.personal-info {
+  border-bottom: 1px solid rgb(226, 223, 223);
+  height: 100px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.personal-info h4 {
+  margin-top: 5px;
+  padding-top: 5px;
+  color: grey;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.personal-info div p {
+  color: black;
+  font-size: 15px;
+}
+.df {
+  display: flex;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+.logo-hw {
+  height: 100%;
+  width: 40%;
+}
+
+.pad-top5 {
+  padding-top: 10px;
+}
+
+.txt-dec {
+  text-decoration: underline;
+  font-weight: 500;
+}
