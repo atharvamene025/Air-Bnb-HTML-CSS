@@ -9,7 +9,7 @@ a {
   color: black;
 }
 
-#navabar {
+#navbar {
   width: 100%;
   height: 80px;
   border: 1px solid rgb(235, 232, 232);
@@ -171,4 +171,69 @@ a {
   padding-left: 5px;
   text-decoration: underline 1px;
   color: rgb(73, 73, 73);
+}
+
+@media screen and (max-width: 1200px) {
+  .product {
+    width: 45%;
+  }
+
+  .heart1 {
+    padding-left: 270px;
+  }
+
+  .heart2 {
+    padding-left: 272px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .product {
+    width: 45%;
+  }
+
+  #left-section {
+    width: 100%;
+  }
+  #right-section {
+    display: none;
+    width: 0%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #navbar {
+    display: none;
+  }
+
+  .heart1 {
+    padding-left: 230px;
+  }
+
+  .heart2 {
+    padding-left: 232px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #navbar {
+    display: none;
+  }
+
+  #right-section {
+    display: none;
+    width: 0%;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .heart1 {
+    padding-left: 370px;
+  }
+
+  .heart2 {
+    padding-left: 370px;
+  }
 }
